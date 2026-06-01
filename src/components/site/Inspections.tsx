@@ -20,9 +20,9 @@ export function Inspections() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="Inspeções Linha de Vida"
-        title="Inspeções técnicas especializadas"
-        subtitle="Realizamos inspeções completas para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com as normas vigentes."
+        eyebrow="Inspeção de Linha de Vida em Porto Alegre"
+        title="Inspeções técnicas especializadas em PoA e Região Metropolitana"
+        subtitle="Realizamos inspeções completas em Porto Alegre e RS para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com a NR-35."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {cards.map((c, i) => (
