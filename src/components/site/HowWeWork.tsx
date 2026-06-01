@@ -11,7 +11,7 @@ export function HowWeWork() {
     <Section tone="white">
       <SectionTitle
         eyebrow="Como a Engenhar+ trabalha em Porto Alegre"
-        title="Como desenvolvemos cada projeto de linha de vida em PoA"
+        title="Como desenvolvemos cada projeto de linha de vida em Porto Alegre"
         subtitle="Cada projeto em Porto Alegre é único. Avaliamos o ambiente in loco, ouvimos todas as partes envolvidas e desenvolvemos soluções técnicas alinhadas à realidade do cliente local, com foco em segurança, conformidade NR-35 e melhor custo-benefício."
       />
       <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
