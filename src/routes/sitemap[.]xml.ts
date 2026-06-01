@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 
-const BASE_URL = "https://linhadevida.engenharmais.com.br";
+const BASE_URL = "https://portoalegre.engenharmais.com.br";
 
 interface SitemapEntry {
   path: string;
@@ -15,7 +15,6 @@ export const Route = createFileRoute("/sitemap.xml")({
       GET: async () => {
         const entries: SitemapEntry[] = [
           { path: "/", changefreq: "weekly", priority: "1.0" },
-          { path: "/linha-de-vida-porto-alegre", changefreq: "weekly", priority: "0.9" },
           { path: "/servicos", changefreq: "monthly", priority: "0.9" },
           { path: "/tipos-linha-de-vida", changefreq: "monthly", priority: "0.8" },
           { path: "/como-trabalhamos", changefreq: "monthly", priority: "0.7" },
