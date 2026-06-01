@@ -624,18 +624,20 @@ function PoaInspections() {
 /* 11. CASOS DE INSPEÇÕES */
 function PoaInspectionVideos() {
   return (
-    <div>
-      <Section tone="gray">
-        <SectionTitle
-          eyebrow="Casos de Inspeção"
-          title="Casos de Inspeções Realizadas"
-          subtitle="As inspeções permitem identificar falhas, desgastes e não conformidades antes que elas se tornem riscos para a operação."
-        />
-      </Section>
-      <div className="-mt-16 sm:-mt-24">
-        <InspectionVideos />
+    <Section tone="gray">
+      <SectionTitle
+        eyebrow="Casos de Inspeção"
+        title="Casos de Inspeções Realizadas"
+        subtitle="As inspeções permitem identificar falhas, desgastes e não conformidades antes que elas se tornem riscos para a operação."
+      />
+      <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <YT id="S0WAqhzKOAY" title="Inspeção em Coberturas" />
+        <YT id="0ZdujswYjzA" title="Inspeção em Escadas" />
       </div>
-    </div>
+      <p className="mt-8 text-center text-muted-foreground">
+        Após a inspeção, entregamos toda a documentação técnica exigida para empresas de Porto Alegre e Região Metropolitana, garantindo conformidade total.
+      </p>
+    </Section>
   );
 }
 
