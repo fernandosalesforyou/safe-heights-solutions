@@ -14,6 +14,10 @@ export function HowWeWork() {
         title="Como desenvolvemos cada projeto de linha de vida em PoA"
         subtitle="Cada projeto em Porto Alegre é único. Avaliamos o ambiente in loco, ouvimos todas as partes envolvidas e desenvolvemos soluções técnicas alinhadas à realidade do cliente local, com foco em segurança, conformidade NR-35 e melhor custo-benefício."
       />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        Nosso processo começa com uma visita técnica para entender a realidade da empresa e desenvolver a melhor solução para trabalho em altura.
+      </p>
+
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {pillars.map((p, i) => (
           <div

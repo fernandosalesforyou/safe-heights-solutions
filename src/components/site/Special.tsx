@@ -19,6 +19,10 @@ export function Special() {
         subtitle="Atendemos empresas de Porto Alegre e Região Metropolitana com soluções adaptadas para cada setor, sempre considerando custo, eficiência e segurança."
         light
       />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-primary-foreground/80">
+        Atendemos empresas de diversos segmentos da capital gaúcha e região metropolitana, oferecendo soluções personalizadas para cada necessidade.
+      </p>
+
       <div className="mt-12 grid gap-8 lg:grid-cols-5 lg:items-start">
         <div className="lg:col-span-2 rounded-2xl border border-primary-foreground/15 bg-primary-foreground/5 p-8">
           <h3 className="text-lg font-semibold text-accent">Diferenciais</h3>

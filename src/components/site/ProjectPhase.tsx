@@ -16,6 +16,10 @@ export function ProjectPhase() {
         title="Etapas do desenvolvimento técnico em Porto Alegre"
         subtitle="Antes da execução em obras de Porto Alegre e Região Metropolitana, estruturamos todo o projeto para garantir precisão, segurança e eficiência."
       />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        Cada projeto é elaborado considerando as características específicas da estrutura e os riscos envolvidos na atividade.
+      </p>
+
       <ol className="relative mt-14 mx-auto max-w-3xl">
         <span aria-hidden className="absolute left-5 top-2 bottom-2 w-px bg-accent/40 sm:left-1/2 sm:-translate-x-1/2" />
         {steps.map((s, i) => (

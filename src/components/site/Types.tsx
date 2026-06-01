@@ -25,9 +25,13 @@ export function Types() {
     <Section id="projeto" tone="white">
       <SectionTitle
         eyebrow="Tipos de Linha de Vida em Porto Alegre"
-        title="Soluções completas em sistemas de proteção contra quedas para PoA e RS"
+        title="Soluções completas em sistemas de proteção contra quedas"
       />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        Somos especialistas em linha de vida para empresas de Porto Alegre e Região Metropolitana, oferecendo soluções personalizadas para diferentes estruturas e operações em altura.
+      </p>
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
         {items.map((it, i) => (
           <article
             key={it.title}
