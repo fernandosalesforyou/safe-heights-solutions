@@ -43,7 +43,7 @@ export function Hero() {
           </div>
 
           <p className="mt-8 text-sm text-primary-foreground/70">
-            Referência no RS • Atendimento nacional • Projetos personalizados
+            Sede em Porto Alegre • Atendimento em toda Região Metropolitana e RS • Projetos personalizados
           </p>
         </div>
       </div>
