@@ -2,11 +2,11 @@ import { Section, SectionTitle } from "./Section";
 
 const diff = ["Projetos personalizados", "Foco em custo-benefício", "Soluções técnicas completas"];
 const segments = [
-  "Indústria",
+  "Indústria em PoA",
   "Construção Civil",
-  "Agronegócio",
+  "Agronegócio no RS",
   "Centros logísticos",
-  "Condomínios",
+  "Condomínios em Porto Alegre",
   "Empresas com NR-35",
 ];
 
