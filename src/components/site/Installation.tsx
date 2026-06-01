@@ -25,7 +25,7 @@ export function Installation() {
     <Section tone="white">
       <SectionTitle
         eyebrow="Instalação de Linha de Vida em Porto Alegre"
-        title="Execução segura e eficiente em PoA e Região Metropolitana"
+        title="Execução segura e eficiente em Porto Alegre e Região Metropolitana"
         subtitle="Realizamos instalações de linha de vida em Porto Alegre com alto padrão técnico, garantindo segurança, rapidez e mínimo impacto na operação do cliente."
       />
       <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">

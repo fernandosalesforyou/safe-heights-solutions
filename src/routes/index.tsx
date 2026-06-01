@@ -20,7 +20,7 @@ import { ContactDialogProvider } from "@/components/site/ContactDialog";
 const SITE_URL = "https://portoalegre.engenharmais.com.br";
 const TITLE = "Linha de Vida em Porto Alegre | Projeto, Instalação e Inspeção NR-35 | Engenhar+";
 const DESCRIPTION =
-  "Linha de vida em Porto Alegre: projeto, instalação e inspeção com ART e conformidade NR-35. Atendimento em PoA, Canoas, Gravataí e toda a Região Metropolitana do RS.";
+  "Linha de vida em Porto Alegre: projeto, instalação e inspeção com ART e conformidade NR-35. Atendimento em Porto Alegre, Canoas, Gravataí e toda a Região Metropolitana do RS.";
 
 const faqs = [
   {
