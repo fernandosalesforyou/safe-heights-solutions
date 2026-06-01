@@ -23,7 +23,7 @@ function YT({ id, title }: { id: string; title: string }) {
 export function ProjectVideos() {
   return (
     <Section tone="white">
-      <SectionTitle eyebrow="Vídeos" title="Veja projetos em execução" />
+      <SectionTitle eyebrow="Vídeos" title="Projetos de linha de vida executados em Porto Alegre e RS" />
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         <YT id="FM_8UOq_nvE" title="Projeto Overhead" />
         <YT id="0Wn0sRStvms" title="Projeto em Telhado" />
