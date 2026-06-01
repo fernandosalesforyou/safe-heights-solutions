@@ -52,9 +52,9 @@ export function Anchors() {
   return (
     <Section tone="gray">
       <SectionTitle
-        eyebrow="Pontos de ancoragem"
-        title="Projeto, instalação e inspeção de ancoragem"
-        subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem conforme normas técnicas, garantindo segurança estrutural e proteção total para trabalhos em altura."
+        eyebrow="Pontos de ancoragem em Porto Alegre"
+        title="Projeto, instalação e inspeção de ancoragem em PoA"
+        subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem em Porto Alegre e Região Metropolitana conforme NR-35, garantindo segurança estrutural e proteção total para trabalhos em altura."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {[
