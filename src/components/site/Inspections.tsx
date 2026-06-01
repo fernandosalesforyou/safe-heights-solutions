@@ -79,9 +79,9 @@ export function NR35() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="NR-35"
-        title="Sua empresa está adequada à NR-35?"
-        subtitle="Toda atividade acima de 2 metros exige sistema de proteção contra quedas."
+        eyebrow="NR-35 em Porto Alegre"
+        title="Sua empresa em Porto Alegre está adequada à NR-35?"
+        subtitle="Toda atividade acima de 2 metros em PoA e Região Metropolitana exige sistema de proteção contra quedas com ART."
       />
       <div className="mt-12 mx-auto max-w-4xl rounded-2xl border-l-4 border-accent bg-secondary p-10 shadow-md">
         <h3 className="text-2xl font-semibold text-primary">Principais exigências</h3>
