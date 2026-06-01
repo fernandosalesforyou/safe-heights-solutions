@@ -13,8 +13,8 @@ export function ProjectPhase() {
     <Section tone="gray">
       <SectionTitle
         eyebrow="Fase de projeto"
-        title="Etapas do desenvolvimento técnico"
-        subtitle="Antes da execução, estruturamos todo o projeto para garantir precisão, segurança e eficiência."
+        title="Etapas do desenvolvimento técnico em Porto Alegre"
+        subtitle="Antes da execução em obras de Porto Alegre e Região Metropolitana, estruturamos todo o projeto para garantir precisão, segurança e eficiência."
       />
       <ol className="relative mt-14 mx-auto max-w-3xl">
         <span aria-hidden className="absolute left-5 top-2 bottom-2 w-px bg-accent/40 sm:left-1/2 sm:-translate-x-1/2" />
