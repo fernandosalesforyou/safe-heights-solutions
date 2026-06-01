@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Header } from "@/components/site/Header";
 import { Section, SectionTitle } from "@/components/site/Section";
 import { CtaButton } from "@/components/site/CtaButton";
-import { ProjectVideos, InspectionVideos } from "@/components/site/VideoBlock";
+
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { ContactDialogProvider } from "@/components/site/ContactDialog";
