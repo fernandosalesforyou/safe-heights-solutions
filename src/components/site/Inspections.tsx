@@ -57,7 +57,7 @@ export function Anchors() {
     <Section tone="gray">
       <SectionTitle
         eyebrow="Pontos de ancoragem em Porto Alegre"
-        title="Projeto, instalação e inspeção de ancoragem em PoA"
+        title="Projeto, instalação e inspeção de ancoragem em Porto Alegre"
         subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem em Porto Alegre e Região Metropolitana conforme NR-35, garantindo segurança estrutural e proteção total para trabalhos em altura."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -85,7 +85,7 @@ export function NR35() {
       <SectionTitle
         eyebrow="NR-35 em Porto Alegre"
         title="Sua Empresa Está Adequada à NR-35?"
-        subtitle="Toda atividade acima de 2 metros em PoA e Região Metropolitana exige sistema de proteção contra quedas com ART."
+        subtitle="Toda atividade acima de 2 metros em Porto Alegre e Região Metropolitana exige sistema de proteção contra quedas com ART."
       />
       <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
         Empresas de Porto Alegre e Região Metropolitana que realizam atividades em altura precisam garantir conformidade com as exigências da NR-35 para evitar riscos, multas e interdições.
