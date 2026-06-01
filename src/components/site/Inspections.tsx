@@ -20,9 +20,9 @@ export function Inspections() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="Inspeções Linha de Vida"
-        title="Inspeções técnicas especializadas"
-        subtitle="Realizamos inspeções completas para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com as normas vigentes."
+        eyebrow="Inspeção de Linha de Vida em Porto Alegre"
+        title="Inspeções técnicas especializadas em PoA e Região Metropolitana"
+        subtitle="Realizamos inspeções completas em Porto Alegre e RS para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com a NR-35."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {cards.map((c, i) => (
@@ -52,9 +52,9 @@ export function Anchors() {
   return (
     <Section tone="gray">
       <SectionTitle
-        eyebrow="Pontos de ancoragem"
-        title="Projeto, instalação e inspeção de ancoragem"
-        subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem conforme normas técnicas, garantindo segurança estrutural e proteção total para trabalhos em altura."
+        eyebrow="Pontos de ancoragem em Porto Alegre"
+        title="Projeto, instalação e inspeção de ancoragem em PoA"
+        subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem em Porto Alegre e Região Metropolitana conforme NR-35, garantindo segurança estrutural e proteção total para trabalhos em altura."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {[
@@ -79,9 +79,9 @@ export function NR35() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="NR-35"
-        title="Sua empresa está adequada à NR-35?"
-        subtitle="Toda atividade acima de 2 metros exige sistema de proteção contra quedas."
+        eyebrow="NR-35 em Porto Alegre"
+        title="Sua empresa em Porto Alegre está adequada à NR-35?"
+        subtitle="Toda atividade acima de 2 metros em PoA e Região Metropolitana exige sistema de proteção contra quedas com ART."
       />
       <div className="mt-12 mx-auto max-w-4xl rounded-2xl border-l-4 border-accent bg-secondary p-10 shadow-md">
         <h3 className="text-2xl font-semibold text-primary">Principais exigências</h3>

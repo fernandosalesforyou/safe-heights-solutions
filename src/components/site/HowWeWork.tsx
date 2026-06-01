@@ -10,9 +10,9 @@ export function HowWeWork() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="Como a Engenhar+ trabalha"
-        title="Como desenvolvemos cada projeto"
-        subtitle="Cada projeto é único. Analisamos o ambiente em detalhes, ouvimos todas as partes envolvidas e desenvolvemos soluções técnicas alinhadas à realidade do cliente, com foco em segurança, eficiência e o melhor custo-benefício."
+        eyebrow="Como a Engenhar+ trabalha em Porto Alegre"
+        title="Como desenvolvemos cada projeto de linha de vida em PoA"
+        subtitle="Cada projeto em Porto Alegre é único. Avaliamos o ambiente in loco, ouvimos todas as partes envolvidas e desenvolvemos soluções técnicas alinhadas à realidade do cliente local, com foco em segurança, conformidade NR-35 e melhor custo-benefício."
       />
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {pillars.map((p, i) => (

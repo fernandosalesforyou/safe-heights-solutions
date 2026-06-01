@@ -2,11 +2,11 @@ import { Section, SectionTitle } from "./Section";
 
 const diff = ["Projetos personalizados", "Foco em custo-benefício", "Soluções técnicas completas"];
 const segments = [
-  "Indústria",
+  "Indústria em PoA",
   "Construção Civil",
-  "Agronegócio",
+  "Agronegócio no RS",
   "Centros logísticos",
-  "Condomínios",
+  "Condomínios em Porto Alegre",
   "Empresas com NR-35",
 ];
 
@@ -14,9 +14,9 @@ export function Special() {
   return (
     <Section tone="primary">
       <SectionTitle
-        eyebrow="Soluções especiais"
-        title="Projetos para diferentes segmentos"
-        subtitle="Desenvolvemos soluções adaptadas para diferentes setores, sempre considerando custo, eficiência e segurança."
+        eyebrow="Soluções especiais em Porto Alegre"
+        title="Projetos para diferentes segmentos em PoA e RS"
+        subtitle="Atendemos empresas de Porto Alegre e Região Metropolitana com soluções adaptadas para cada setor, sempre considerando custo, eficiência e segurança."
         light
       />
       <div className="mt-12 grid gap-8 lg:grid-cols-5 lg:items-start">

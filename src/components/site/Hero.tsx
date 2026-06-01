@@ -16,20 +16,20 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="inline-block rounded-full border border-primary-foreground/30 bg-primary-foreground/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-primary-foreground/90">
-            Engenhar+ Soluções
+            Engenhar+ Soluções • Porto Alegre / RS
           </p>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground">
-            Linha de Vida e Sistemas de Proteção Contra Quedas
+            Linha de Vida em Porto Alegre — Projeto, Instalação e Inspeção
           </h1>
           <p className="mt-5 text-lg text-primary-foreground/85 max-w-2xl">
-            Projeto, instalação e inspeção de sistemas de segurança para trabalho em altura, garantindo conformidade com normas e proteção total para sua equipe.
+            Sistemas de proteção contra quedas para trabalho em altura em Porto Alegre e Região Metropolitana, com conformidade total à NR-35, ART e atendimento técnico especializado.
           </p>
 
           <ul className="mt-8 space-y-3">
             {[
-              "Evite multas e interdições por irregularidades",
-              "Reduza riscos de acidentes e responsabilidades legais",
-              "Atenda totalmente às exigências da NR-35",
+              "Atendimento rápido em Porto Alegre, Canoas, Gravataí e toda a Região Metropolitana",
+              "Equipe local com conhecimento das exigências normativas do RS",
+              "Projeto, instalação e inspeção com ART e plena adequação à NR-35",
             ].map((b) => (
               <li key={b} className="flex items-start gap-3 text-primary-foreground/95">
                 <span className="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">✓</span>
@@ -43,7 +43,7 @@ export function Hero() {
           </div>
 
           <p className="mt-8 text-sm text-primary-foreground/70">
-            Referência no RS • Atendimento nacional • Projetos personalizados
+            Sede em Porto Alegre • Atendimento em toda Região Metropolitana e RS • Projetos personalizados
           </p>
         </div>
       </div>

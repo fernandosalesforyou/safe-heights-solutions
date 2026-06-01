@@ -24,9 +24,9 @@ export function Installation() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="Implementação / Instalação"
-        title="Execução segura e eficiente"
-        subtitle="Realizamos a instalação com alto padrão técnico, garantindo segurança, rapidez e mínimo impacto na operação do cliente."
+        eyebrow="Instalação de Linha de Vida em Porto Alegre"
+        title="Execução segura e eficiente em PoA e Região Metropolitana"
+        subtitle="Realizamos instalações de linha de vida em Porto Alegre com alto padrão técnico, garantindo segurança, rapidez e mínimo impacto na operação do cliente."
       />
       <div className="mt-12 grid gap-10 lg:grid-cols-2 items-center">
         <div className="relative overflow-hidden rounded-2xl shadow-xl border border-border bg-card">

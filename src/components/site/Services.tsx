@@ -30,9 +30,9 @@ export function Services() {
   return (
     <Section tone="gray">
       <SectionTitle
-        eyebrow="Serviços"
-        title="Solução completa do projeto à execução"
-        subtitle="Oferecemos um conjunto completo de serviços técnicos para garantir segurança, conformidade e eficiência."
+        eyebrow="Serviços em Porto Alegre"
+        title="Solução completa do projeto à execução em Porto Alegre e RS"
+        subtitle="Atendemos empresas em Porto Alegre e Região Metropolitana com serviços técnicos completos para segurança em altura, conformidade NR-35 e eficiência operacional."
       />
       <ul className="mt-16 mx-auto grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl">
         {services.map((s) => (
