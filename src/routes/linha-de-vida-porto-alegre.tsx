@@ -538,20 +538,39 @@ function PoaInstallation() {
 }
 
 /* 9. PROJETOS REALIZADOS */
-function PoaProjectVideos() {
+function YT({ id, title }: { id: string; title: string }) {
   return (
-    <div>
-      <Section tone="gray">
-        <SectionTitle
-          eyebrow="Projetos Realizados"
-          title="Projetos de Linha de Vida Executados pela Engenhar+"
-          subtitle="Conheça alguns projetos desenvolvidos por nossa equipe em diferentes segmentos e aplicações em Porto Alegre e região."
+    <div className="overflow-hidden rounded-xl border border-border bg-card shadow-md">
+      <div className="aspect-video">
+        <iframe
+          className="h-full w-full"
+          src={`https://www.youtube.com/embed/${id}`}
+          title={title}
+          loading="lazy"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         />
-      </Section>
-      <div className="-mt-16 sm:-mt-24">
-        <ProjectVideos />
+      </div>
+      <div className="p-4">
+        <p className="font-semibold text-primary">{title}</p>
       </div>
     </div>
+  );
+}
+
+function PoaProjectVideos() {
+  return (
+    <Section tone="gray">
+      <SectionTitle
+        eyebrow="Projetos Realizados"
+        title="Projetos de Linha de Vida Executados pela Engenhar+"
+        subtitle="Conheça alguns projetos desenvolvidos por nossa equipe em diferentes segmentos e aplicações em Porto Alegre e região."
+      />
+      <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <YT id="FM_8UOq_nvE" title="Projeto Overhead" />
+        <YT id="0Wn0sRStvms" title="Projeto em Telhado" />
+      </div>
+    </Section>
   );
 }
 
