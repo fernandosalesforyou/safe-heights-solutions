@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
+import { RegionalCoverage, ProjectInstallInspect } from "@/components/site/RegionalCoverage";
 import { Types } from "@/components/site/Types";
 import { Services } from "@/components/site/Services";
 import { HowWeWork } from "@/components/site/HowWeWork";
@@ -9,10 +10,12 @@ import { Installation } from "@/components/site/Installation";
 import { Special } from "@/components/site/Special";
 import { ProjectVideos, InspectionVideos } from "@/components/site/VideoBlock";
 import { Inspections, Anchors, NR35 } from "@/components/site/Inspections";
+import { FAQ } from "@/components/site/FAQ";
 import { ContactForm } from "@/components/site/ContactForm";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { ContactDialogProvider } from "@/components/site/ContactDialog";
+
 
 const SITE_URL = "https://portoalegre.engenharmais.com.br";
 const TITLE = "Linha de Vida em Porto Alegre | Projeto, Instalação e Inspeção NR-35 | Engenhar+";
