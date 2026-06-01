@@ -129,18 +129,22 @@ function Index() {
       <Header />
       <main>
         <Hero />
+        <RegionalCoverage />
         <Types />
         <Services />
+        <ProjectInstallInspect />
         <HowWeWork />
         <ProjectPhase />
         <Installation />
-        <Special />
         <ProjectVideos />
         <Inspections />
         <InspectionVideos />
+        <Special />
         <Anchors />
         <NR35 />
+        <FAQ />
         <ContactForm />
+
       </main>
       <Footer />
       <FloatingWhatsApp />
