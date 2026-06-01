@@ -23,7 +23,10 @@ function YT({ id, title }: { id: string; title: string }) {
 export function ProjectVideos() {
   return (
     <Section tone="white">
-      <SectionTitle eyebrow="Vídeos" title="Projetos de linha de vida executados em Porto Alegre e RS" />
+      <SectionTitle eyebrow="Projetos Realizados" title="Projetos de Linha de Vida Executados pela Engenhar+" />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        Conheça alguns projetos desenvolvidos por nossa equipe em diferentes segmentos e aplicações.
+      </p>
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         <YT id="FM_8UOq_nvE" title="Projeto Overhead" />
         <YT id="0Wn0sRStvms" title="Projeto em Telhado" />
@@ -32,10 +35,14 @@ export function ProjectVideos() {
   );
 }
 
+
 export function InspectionVideos() {
   return (
     <Section tone="gray">
       <SectionTitle eyebrow="Casos de inspeção" title="Inspeções realizadas em campo em Porto Alegre" />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        As inspeções permitem identificar falhas, desgastes e não conformidades antes que elas se tornem riscos para a operação.
+      </p>
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         <YT id="S0WAqhzKOAY" title="Inspeção em Coberturas" />
         <YT id="0ZdujswYjzA" title="Inspeção em Escadas" />

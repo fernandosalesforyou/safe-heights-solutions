@@ -28,6 +28,10 @@ export function Installation() {
         title="Execução segura e eficiente em PoA e Região Metropolitana"
         subtitle="Realizamos instalações de linha de vida em Porto Alegre com alto padrão técnico, garantindo segurança, rapidez e mínimo impacto na operação do cliente."
       />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        Nossa equipe atua em Porto Alegre e em todo o Rio Grande do Sul executando instalações seguras, eficientes e em conformidade com as exigências técnicas.
+      </p>
+
       <div className="mt-12 grid gap-10 lg:grid-cols-2 items-center">
         <div className="relative overflow-hidden rounded-2xl shadow-xl border border-border bg-card">
           <div

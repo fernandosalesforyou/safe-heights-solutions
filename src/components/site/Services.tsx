@@ -34,6 +34,10 @@ export function Services() {
         title="Solução completa do projeto à execução em Porto Alegre e RS"
         subtitle="Atendemos empresas em Porto Alegre e Região Metropolitana com serviços técnicos completos para segurança em altura, conformidade NR-35 e eficiência operacional."
       />
+      <p className="mx-auto mt-6 max-w-3xl text-center text-base text-muted-foreground">
+        Atendemos empresas de diversos segmentos em Porto Alegre e região, garantindo segurança operacional e conformidade normativa.
+      </p>
+
       <ul className="mt-16 mx-auto grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl">
         {services.map((s) => (
           <li
